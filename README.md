@@ -10,10 +10,10 @@ Tip: Hover your mouse over [underlined text](## "Google en passant!") to see a p
 
 <code> ╠ tf
 \ ╚╦ custom
-\ \ ╚╦ madhud
-\ \ \╚╦ resource
-\ \ \ ╠ scripts
-\ \ \ ╠ readme.md
-\ \ \ ╚ etc</code>
+\ \╚╦ madhud
+\ \ ╚╦ resource
+\ \ \╠ scripts
+\ \ \╠ readme.md
+\ \ \╚ etc</code>
 
 4. **Restart TF2**. `hud_reloadscheme` won't work because the game needs to find a new search path. (and because some font and material shenanigans are only performed on game launch)
