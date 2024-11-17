@@ -5,15 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-250"		[$WIN32] // Delish Sosre Spaghetti!
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"c20"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"xpos"			"cs-1.25"
+		"ypos"			"cs0.25"
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"120"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -74,40 +70,70 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
+		"font"			"MontserratBold-75"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"-5"
+		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"200"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"MontserratBold"
+		"textAlignment"	"south-east"	
 		"fgcolor"		"White"
+		
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"font"			"MontserratBold-75"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"-3"
+		"ypos"			"17"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"south-east"	
+		"fgcolor"		"TransparentBlack"
 		
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
+		"font"			"MontserratBold-25"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"200"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
-		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"textAlignment"	"south-west"	
+		"fgcolor"		"White"
 	}
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"font"			"MontserratBold-25"
+		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+		"xpos"			"202"
+		"ypos"			"2"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"south-west"
+		"fgcolor"		"TransparentBlack"
+	}
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
