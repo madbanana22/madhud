@@ -12,6 +12,7 @@
 // Tags:
 // [HUDFONTS] - font properties
 // [FONTDEFS] - font definitions
+// [COLORS]   - HUD-defined colors
 
 Scheme
 {
@@ -213,6 +214,15 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+
+		// [COLORS]
+		"PitchBlack"	"0 0 0 255"
+		
+		// Catppuccin - https://catppuccin.com/palette
+		"MacchiatoGreen" 	"166 218 149 255"
+		"MacchiatoRed"		"237 135 150 255"
+		"MacchiatoBlue" 	"138 173 244 255"
+		"MacchiatoBase" 	"30 30 46 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3042,13 +3052,45 @@ Scheme
 		}
 
 		// [HUDFONTS]
-		"MontserratBold"
+		"MontserratBold-75"
 		{
 			"1"
 			{
-				"name" 		"montserrat-bold"
-				"tall" 		"100"
+				"name" 		"Montserrat Bold"
+				"tall" 		"75"
+				"weight"	"400"
+				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"MontserratBold-25"
+		{
+			"1"
+			{
+				"name" 		"Montserrat Bold"
+				"tall" 		"25"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"InterMedium-Health"
+		{
+			"1"
+			{
+				"name" 		"Inter 28pt Medium"
+				"tall" 		"75"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Chat"
+		{
+			"1"
+			{
+				"name" "Montserrat Regular"
+				"tall" "12"
 			}
 		}
 	}
@@ -5875,8 +5917,18 @@ Scheme
 
 		"18"
 		{
-			"name" "montserrat-bold"
 			"font" "resource/fonts/Montserrat-Bold.ttf"
+			"name" "Montserrat Bold"
+		}
+		"19"
+		{
+			"font" "resource/fonts/Inter-Medium.ttf"
+			"name" "Inter 28pt Medium"
+		}
+		"20"
+		{
+			"font" "resource/fonts/Montserrat-Regular.ttf"
+			"name" "Montserrat Regular"
 		}
 	}
 }
